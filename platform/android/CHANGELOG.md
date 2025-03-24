@@ -1,10 +1,16 @@
 # Changelog MapLibre Native for Android
 
-## main
-
-### ✨ Features and improvements
+## 11.8.4
 
 ### 🐞 Bug fixes
+
+-  Add workaround for android emulator as crash on Android emulation is still presented ([#3310](https://github.com/maplibre/maplibre-native/pull/3310))
+
+## 11.8.3
+
+### 🐞 Bug fixes
+
+- Revert "Eliminate copies in deferred cleanup" ([#3035](https://github.com/maplibre/maplibre-native/pull/3035)) which was causing a memory growth issue.
 
 ## 11.8.2
 
